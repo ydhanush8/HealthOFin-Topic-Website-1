@@ -1,0 +1,189 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh
+}
+
+.nav-upper-block{
+    background: rgb(0,23,67);
+    background: linear-gradient(0deg, rgb(27, 55, 108) 0%, rgba(67,163,187,1) 40%, rgba(0,212,255,1) 100%);     
+    padding-bottom: 40px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.ulist{
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.list{
+    padding-inline: 10px;
+    margin-inline: 10px;
+}
+
+.main-heading{
+    color: aliceblue;
+}
+
+.brand-name{
+    position: absolute;
+    left: 25px;
+}
+
+.account{
+    position: absolute;
+    right: 10px;
+    margin-right: 20px;
+}
+
+.subheading{
+    color: rgb(0, 71, 125);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(169, 255, 226);
+}
+.upper-block{
+    text-align: center;
+    font-size: x-large;
+}
+
+.blocks{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-inline: 140px;
+    
+}
+
+.web-design{
+    position: relative;
+    top: -150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+    height: 100%;
+    margin: 10px;   
+    padding: 30px;
+}
+
+.finance{
+    position: relative;
+    top: -150px;
+    text-align: center;
+    background: rgb(0,23,67);
+    background: linear-gradient(0deg, rgb(27, 55, 108) 0%, rgba(67,163,187,1) 40%, rgba(0,212,255,1) 100%);    
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    margin: 10px;  
+    padding: 30px;
+    padding-bottom: 19px;
+}
+
+.num{
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(167, 167, 247);
+}
+.search{
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 150px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.footer-buttons{
+    margin-top: 70px ;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    
+    
+}
+
+.parainfo{
+    text-align: left;
+}
+
+.footer-save{
+    float: right;
+    position: relative;
+    bottom: 15px;
+    border-radius: 7px;
+    background: none;
+    border: none;
+    color: aliceblue;
+}
+
+.web-design-image{
+    margin-top: 65px;
+}
+
+.learn-more-btn{
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    
+}
+
+.content-blocks{
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    
+}
+
+.search-btn{
+    position: relative;
+    right: 100px;
+    padding: 10px;
+    padding-inline: 16px;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+
+
+.share-btn{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: aquamarine;
+
+}
